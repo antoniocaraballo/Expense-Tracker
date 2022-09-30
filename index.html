@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="card">
+      <!-- Title -->
+      <h1>Expense Tracker</h1>
+      <!-- Earings Input -->
+      <input type="number" id="new-earning" placeholder="ENTER EARNINGS" />
+      <!-- Earnings Button -->
+      <button type="button" id="add-earning-btn">ADD</button> <br />
+      <!-- Expense Input -->
+      <input
+        type="text"
+        id="new-expense-item"
+        placeholder="ENTER EXPENSE NAME"
+      />
+      <br />
+      <input type="number" id="new-expense" placeholder="ENTER EXPENSE" />
+
+      <!-- Expense Button -->
+      <button type="button" id="add-btn">ADD</button>
+
+      <h3>Transactions:</h3>
+      <ul id="transactions"></ul>
+
+      <h1>Balance: <span id="balance">$0.00</span></h1>
+      <button id="clear">CLEAR</button>
+    </div>
+  </body>
+</html>
